@@ -2,7 +2,7 @@
 
 This python program find parkinglot by using OpenCV
 
-## program process
+## Program process
 ![9](https://user-images.githubusercontent.com/41464934/69432160-85326680-0d7c-11ea-80e4-2ae9c8df8cf7.JPG)
 
 ### Input  
