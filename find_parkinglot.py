@@ -50,7 +50,7 @@ def createblankimage(img):
     return blankimage
 
 if __name__ == '__main__':
-    for fn in glob('../img/parking/trealmap6.jpg'):
+    for fn in glob('../sample.jpg'):
         #이미지 로드
         img = cv.imread(fn)
         cv.imshow('init', img)
@@ -65,6 +65,6 @@ if __name__ == '__main__':
         #이미지 띄우기
         cv.imshow('squares', outputimage)
         #이미지 저장
-        cv.imwrite('../img/parking/result7.png', outputimage)
+        cv.imwrite('../result.png', outputimage)
         cv.waitKey(0)
         cv.destroyAllWindows()
